@@ -133,21 +133,60 @@
 
 // buyurtmaniKorsatish(A, B);
 
-// 10-masala
-function absorb_values (A, B);
-if (A !== B);{
-    return A;
-} else {
+// 11-masala
+// function qiymatlarniYangilash(A, B) {
+//     if (A !== B) {
+//         const kattaQiymat = Math.max(A, B);
+//         A = kattaQiymat;
+//         B = kattaQiymat;
+//     } else {
+//         A = 0;
+//         B = 0;
+//     }
+//     console.log(`A = ${A}, B = ${B}`);
+// }
 
-}
+// let A = 5, B = 10;
+// qiymatlarniYangilash(A, B);
 
-# Example usage:
-A, B = 3, 5
-A, B = absorb_values(A, B)
-print(f"A: {A}, B: {B}")  # Outputs: A: 8, B: 8
+// A = 7, B = 7;
+// qiymatlarniYangilash(A, B);
 
-A, B = 4, 4
-A, B = absorb_values(A, B)
-print(f"A: {A}, B: {B}")  # Outputs: A: 0, B: 0
+// 13-masala
+// let A = +prompt('A');
 
+// let B = +prompt('B');
 
+// let C = +prompt('C');
+
+// let larger ;
+
+// let normal ;
+
+// let smaller ;
+
+// if (A > B){
+// larger = A,smaller = B} else {
+
+// larger = B,smaller = A} if(larger < C){
+
+// normal = larger} else if (C < smaller){
+
+// normal = smaller} else{
+
+// normal = C}
+
+// console.log(normal);
+
+// 14-masala
+alert('Sonlarni kiriting!!!')
+let a = +prompt('a sonni kiriting');
+let f = +prompt('f sonni kiriting');
+let n = +prompt('n sonni kiriting');
+ if ( a > f ){
+    console.log(a);
+ } if ( f > a ){
+    console.log(f);
+ } else console.log(a);{
+    console.log(a);
+ } 
